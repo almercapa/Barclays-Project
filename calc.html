@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculator</title>
+    <link href="calc.css" rel="stylesheet" type="text/css" />
+    <script src="calc.js"></script>
+  </head>
+  
+  <a href="index.html"><button1 id="homepage">Home</button1></a>
+  
+  <body>
+  
+  <div class = "calculator">
+    <div class = "value">
+      <h1 id = "calcTop">0</h1>
+    </div>
+
+<!-- The id = "xX" correlates to RowColumn, (a = 1, b = 2, c = 3...) -->
+    
+    <div class = "row_1">
+    <h2>
+      <button type ="button" id=  "b1" onclick=one()>1</button>
+      <button type ="button" id = "b2" onclick=two()>2</button >
+      <button type ="button" id = "b3" onclick=three()>3</button>
+      <button type ="button" id = "b4" onclick=addition()>+</button>       
+    </h2>
+    </div>
+
+    <div class = "row_2">
+    <h2>
+      <button type="four" id = "c1" onclick=four()>4</button>
+      <button type="button" id = "c2" onclick=five()>5</button>
+      <button type="button" id = "c3" onclick=six()> 6</button>
+      <button type="button" id = "c4" onclick=subtraction()>-</button>       
+    </h2>
+    </div>
+
+    <div class = "row_3">
+    <h2>
+      <button type="button" id = "d1" onclick=seven()>7</button>
+      <button type="button" id = "d2" onclick=eight()>8</button>
+      <button type="button" id = "d3" onclick=nine()>9</button>
+      <button type="button" id = "d4" onclick=multiplication()>*</button>        
+    </h2>
+    </div>
+
+    <div class = "row_4">
+    <h2>
+      <button type="button" id = "e1" onclick=zero()>0</button>
+      <button type="button" id = "e2" onclick=CE()>C</button>
+      <button type="button" id = "e3" onclick=division()>/</button>
+      <button type="button" id = "e4" onclick=equal()>=</button>
+    </h2>
+    </div>
+
+    <div class = "row_5">
+    <h2>
+      <button type="button" id = "f1" onclick=Backspace()>Del</button>
+      <button type="button" id = "f2" onclick=dot()>.</button>
+      <button type="button" id = "f3">|</button>
+      <button type="button" id = "f4">|</button>
+    </h2>
+    </div>
+      
+  </div>
+  </body>
+</html>
