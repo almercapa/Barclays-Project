@@ -1,0 +1,100 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  /* Set up a grid of 4 rows and 2 columns */
+  
+  width: 100%;
+  height: 100%;
+  /* width as percentage of screen */
+  background: rgb(34,18,34);
+background: linear-gradient(paleturquoise, skyblue, lightseagreen);
+  background-attachment: fixed;
+  color: blanchedalmond;
+  
+}
+h1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* grid position */
+  
+  font-family:"kaushan script";
+  align-self: center;
+  justify-self: center;
+  color: seagreen;
+  /* header1 align */
+}
+
+h2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* grid position */
+  
+  font-family:"kaushan script";
+  align-self: center;
+  justify-self: center;
+  color: seagreen;
+  /* header2 align */
+}
+
+#counter {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 1;
+  text-align: center;
+}
+
+
+#button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#button:hover {background-color: darkred}
+
+#button:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#homepage {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* Position on grid */
+
+  font-size: 18px;
+  margin: 35px;
+  width: 25%;
+  /* Button sizing */
+
+  align-items: center;
+  justify-self: center;
+  /* Button align */
+
+  border-style:solid;
+  background-color: #008CBA;
+  border-color: black;
+  border-width:2px;
+  border-radius: 1px;
+}
+
